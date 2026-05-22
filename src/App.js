@@ -82,8 +82,11 @@ const techStack = [
 
       {/* HERO */}
       <section 
+  
   id="home" 
-  className="flex flex-row items-center justify-between h-screen bg-gradient-to-r from-blue-600 to-purple-700 px-16"
+  className="flex flex-col md:flex-row items-center justify-center h-screen bg-gradient-to-r from-blue-600 to-purple-700 px-6 md:px-16"
+>
+
 >
   {/* Left side - Text */}
   <div className="flex-1 text-left">
@@ -104,10 +107,11 @@ const techStack = [
   {/* Right side - Image */}
   <div className="flex-1 flex justify-center">
     <img 
-      src="/images/tanya.jpeg" 
-      alt="Tanya Tripathi" 
-      className="w-80 h-80 rounded-full border-4 border-yellow-400 shadow-lg hover:scale-105 transition-transform"
-    />
+  src="/images/tanya.jpeg" 
+  alt="Tanya Tripathi" 
+  className="w-48 h-48 md:w-80 md:h-80 rounded-full border-4 border-yellow-400 shadow-lg hover:scale-105 transition-transform mx-auto"
+ />
+
   </div>
 </section>
 
@@ -117,7 +121,7 @@ const techStack = [
       <section id="about" className="py-20 text-center">
         <h2 className="text-3xl font-bold text-yellow-400 mb-6">About Me</h2>
         <p className="text-gray-300 max-w-2xl mx-auto">
-          Computer Science undergraduate specializing in Artificial Intelligence and Machine Learning (CGPA 8.98).
+          Computer Science undergraduate specializing in Artificial Intelligence and Machine Learning (CGPA 8.99).
           Skilled in full-stack development, AI/ML, and blockchain. Passionate about building intelligent systems and web applications.
         </p>
       </section>
