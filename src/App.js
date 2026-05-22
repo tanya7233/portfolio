@@ -87,8 +87,6 @@ const techStack = [
   className="flex flex-col md:flex-row items-center justify-center h-screen bg-gradient-to-r from-blue-600 to-purple-700 px-6 md:px-16"
 >
 
-
->
   {/* Left side - Text */}
   <div className="flex-1 text-left">
     <h1 className="text-3xl sm:text-4xl md:text-6xl font-extrabold text-yellow-300 mb-4 text-center md:text-left">
