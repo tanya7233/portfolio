@@ -83,14 +83,14 @@ const techStack = [
       {/* HERO */}
       <section 
   id="home" 
-  className="flex flex-col md:flex-row items-center justify-center h-screen bg-gradient-to-r from-blue-600 to-purple-700 px-6 md:px-16"
+  className="flex flex-col md:flex-row items-center justify-center min-h-screen bg-gradient-to-r from-blue-600 to-purple-700 px-6 md:px-16 py-10"
 >
   {/* Left side - Text */}
   <div className="flex-1 text-center md:text-left">
     <h1 className="text-3xl sm:text-4xl md:text-6xl font-extrabold text-yellow-300 mb-4 break-words">
       Hi, I'm Tanya Tripathi
     </h1>
-    <p className="text-gray-100 text-lg sm:text-xl md:text-2xl mb-6 leading-relaxed">
+    <p className="text-gray-100 text-base sm:text-lg md:text-2xl mb-6 leading-relaxed">
        AI & ML Enthusiast | Web Development Learner
     </p>
     <a 
@@ -110,6 +110,7 @@ const techStack = [
     />
   </div>
 </section>
+
 
 
 
@@ -209,7 +210,7 @@ const techStack = [
 <section id="contact" className="py-20 text-center bg-gray-900">
   <h2 className="text-3xl font-bold text-yellow-400 mb-6">Contact Me</h2>
   <p className="text-gray-300 mb-6">
-    Feel free to reach out for collaborations, internships, or project discussions.
+    Feel free to reach out for collaborations or project discussions.
   </p>
   <div className="space-y-2">
     <p className="text-gray-400">📧 Email: <span className="text-yellow-400">tanyatripathi014@gmail.com</span></p>
