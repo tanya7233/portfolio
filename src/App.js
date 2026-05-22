@@ -83,14 +83,14 @@ const techStack = [
       {/* HERO */}
       <section 
   id="home" 
-  className="flex flex-col md:flex-row items-center justify-center min-h-screen bg-gradient-to-r from-blue-600 to-purple-700 px-6 md:px-16 py-10"
+  className="flex flex-col md:flex-row items-center justify-center min-h-screen bg-gradient-to-r from-blue-600 to-purple-700 px-6 md:px-16 py-12"
 >
   {/* Left side - Text */}
   <div className="flex-1 text-center md:text-left">
-    <h1 className="text-2xl sm:text-3xl md:text-5xl lg:text-6xl font-extrabold text-yellow-300 mb-4 break-words leading-snug">
+    <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-extrabold text-yellow-300 mb-6 break-words leading-tight">
       Hi, I'm Tanya Tripathi
     </h1>
-    <p className="text-gray-100 text-base sm:text-lg md:text-2xl mb-6 leading-relaxed">
+    <p className="text-gray-100 text-lg sm:text-xl md:text-2xl mb-8 leading-relaxed">
        AI & ML Enthusiast | Web Development Learner
     </p>
     <a 
@@ -102,14 +102,15 @@ const techStack = [
   </div>
 
   {/* Right side - Image */}
-  <div className="flex-1 flex justify-center mt-8 md:mt-0">
+  <div className="flex-1 flex justify-center mt-10 md:mt-0">
     <img 
       src="/images/tanya.jpeg" 
       alt="Tanya Tripathi" 
-      className="w-40 h-40 sm:w-56 sm:h-56 md:w-80 md:h-80 rounded-full border-4 border-yellow-400 shadow-lg hover:scale-105 transition-transform mx-auto"
+      className="w-48 h-48 sm:w-64 sm:h-64 md:w-96 md:h-96 rounded-full border-4 border-yellow-400 shadow-lg hover:scale-105 transition-transform mx-auto"
     />
   </div>
 </section>
+
 
 
 
