@@ -7,7 +7,7 @@ const App = () => {
       company: "VIT Bhopal University",
       role: "Computer Science Undergraduate (AI & ML)",
       description:
-        "Strong academic record (CGPA 8.98). Skilled in front-end and back-end development, AI/ML, and blockchain. Built responsive, secure applications and contributed to open-source projects.",
+        "Strong academic record (CGPA 8.99). Skilled in front-end and back-end development, AI/ML, and blockchain. Built responsive, secure applications and contributed to open-source projects.",
     },
   ];
 
