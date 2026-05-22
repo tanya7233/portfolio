@@ -89,7 +89,7 @@ const techStack = [
 
   {/* Left side - Text */}
   <div className="flex-1 text-left">
-    <h1 className="text-3xl sm:text-4xl md:text-6xl font-extrabold text-yellow-300 mb-4 text-center md:text-left break-words">
+    <h1 className="text-4xl md:text-6xl font-extrabold text-yellow-300 mb-4 text-center md:text-left">
   Hi, I'm Tanya Tripathi
 </h1>
 
