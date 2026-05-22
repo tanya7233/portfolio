@@ -69,7 +69,7 @@ const techStack = [
       {/* NAVBAR */}
       <nav className="flex justify-between items-center px-8 py-4 bg-gray-900 fixed w-full top-0 z-50">
         <h2 className="text-2xl font-bold text-yellow-400">Tanya</h2>
-        <ul className="flex space-x-6">
+        <ul className="hidden md:flex space-x-6">
           <li><a href="#home" className="hover:text-yellow-300">Home</a></li>
           <li><a href="#about" className="hover:text-yellow-300">About</a></li>
           <li><a href="#services" className="hover:text-yellow-300">Services</a></li>
@@ -83,7 +83,7 @@ const techStack = [
       {/* HERO */}
 <section
   id="home"
-  className="flex flex-col md:flex-row items-center justify-center min-h-screen bg-gradient-to-r from-blue-600 to-purple-700 px-4 sm:px-8 md:px-16 py-12 gap-10"
+  className="flex flex-col md:flex-row items-center justify-center min-h-screen pt-28 md:pt-0 bg-gradient-to-r from-blue-600 to-purple-700 px-4 sm:px-8 md:px-16 py-12 gap-10"
 >
   
   {/* Left side - Text */}
