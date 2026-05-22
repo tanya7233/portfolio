@@ -82,6 +82,7 @@ const techStack = [
 
       {/* HERO */}
       <section 
+
   id="home" 
   className="flex flex-col md:flex-row items-center justify-center h-screen bg-gradient-to-r from-blue-600 to-purple-700 px-6 md:px-16"
 >
@@ -90,9 +91,10 @@ const techStack = [
 >
   {/* Left side - Text */}
   <div className="flex-1 text-left">
-    <h1 className="text-4xl md:text-6xl font-extrabold text-yellow-300 mb-4 text-center md:text-left">
+    <h1 className="text-3xl sm:text-4xl md:text-6xl font-extrabold text-yellow-300 mb-4 text-center md:text-left">
   Hi, I'm Tanya Tripathi
 </h1>
+
 
     <p className="text-gray-100 text-2xl mb-6 leading-relaxed">
        AI & ML Enthusiast | Web Developement Learner
@@ -110,8 +112,9 @@ const techStack = [
     <img 
   src="/images/tanya.jpeg" 
   alt="Tanya Tripathi" 
-  className="w-40 h-40 md:w-80 md:h-80 rounded-full border-4 border-yellow-400 shadow-lg hover:scale-105 transition-transform mx-auto"
+  className="w-32 h-32 sm:w-48 sm:h-48 md:w-80 md:h-80 rounded-full border-4 border-yellow-400 shadow-lg hover:scale-105 transition-transform mx-auto"
  />
+
 
 
   </div>
