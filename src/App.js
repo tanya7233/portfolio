@@ -87,7 +87,7 @@ const techStack = [
 >
   {/* Left side - Text */}
   <div className="flex-1 text-center md:text-left">
-    <h1 className="text-3xl sm:text-4xl md:text-6xl font-extrabold text-yellow-300 mb-4 break-words">
+    <h1 className="text-2xl sm:text-3xl md:text-5xl lg:text-6xl font-extrabold text-yellow-300 mb-4 break-words leading-snug">
       Hi, I'm Tanya Tripathi
     </h1>
     <p className="text-gray-100 text-base sm:text-lg md:text-2xl mb-6 leading-relaxed">
@@ -106,10 +106,11 @@ const techStack = [
     <img 
       src="/images/tanya.jpeg" 
       alt="Tanya Tripathi" 
-      className="w-32 h-32 sm:w-48 sm:h-48 md:w-80 md:h-80 rounded-full border-4 border-yellow-400 shadow-lg hover:scale-105 transition-transform mx-auto"
+      className="w-40 h-40 sm:w-56 sm:h-56 md:w-80 md:h-80 rounded-full border-4 border-yellow-400 shadow-lg hover:scale-105 transition-transform mx-auto"
     />
   </div>
 </section>
+
 
 
 
