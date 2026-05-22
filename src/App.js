@@ -81,32 +81,37 @@ const techStack = [
       </nav>
 
       {/* HERO */}
-      <section 
-  id="home" 
-  className="flex flex-col md:flex-row items-center justify-center min-h-screen bg-gradient-to-r from-blue-600 to-purple-700 px-6 md:px-16 py-12"
+<section
+  id="home"
+  className="flex flex-col md:flex-row items-center justify-center min-h-screen bg-gradient-to-r from-blue-600 to-purple-700 px-4 sm:px-8 md:px-16 py-12 gap-10"
 >
+  
   {/* Left side - Text */}
   <div className="flex-1 text-center md:text-left">
-    <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-extrabold text-yellow-300 mb-6 break-words leading-tight">
-      Hi, I'm Tanya Tripathi
+    
+    <h1 className="text-4xl sm:text-5xl md:text-6xl font-extrabold text-yellow-300 leading-tight">
+      Hi, I'm <br className="sm:hidden" />
+      Tanya Tripathi
     </h1>
-    <p className="text-gray-100 text-lg sm:text-xl md:text-2xl mb-8 leading-relaxed">
-       AI & ML Enthusiast | Web Development Learner
+
+    <p className="text-white text-lg sm:text-xl md:text-2xl mt-4 mb-8">
+      AI & ML Enthusiast | Web Development Learner
     </p>
-    <a 
-      href="#projects" 
-      className="px-6 sm:px-8 py-3 sm:py-4 bg-yellow-400 text-black font-semibold rounded-lg shadow-lg hover:bg-yellow-300 transition"
+
+    <a
+      href="#projects"
+      className="inline-block px-6 py-3 bg-yellow-400 text-black font-semibold rounded-lg shadow-lg hover:bg-yellow-300 transition"
     >
       View My Work
     </a>
   </div>
 
   {/* Right side - Image */}
-  <div className="flex-1 flex justify-center mt-10 md:mt-0">
-    <img 
-      src="/images/tanya.jpeg" 
-      alt="Tanya Tripathi" 
-      className="w-48 h-48 sm:w-64 sm:h-64 md:w-96 md:h-96 rounded-full border-4 border-yellow-400 shadow-lg hover:scale-105 transition-transform mx-auto"
+  <div className="flex-1 flex justify-center">
+    <img
+      src="/images/tanya.jpeg"
+      alt="Tanya Tripathi"
+      className="w-44 h-44 sm:w-60 sm:h-60 md:w-80 md:h-80 rounded-full border-4 border-yellow-400 shadow-lg object-cover"
     />
   </div>
 </section>
