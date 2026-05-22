@@ -83,14 +83,14 @@ const techStack = [
       {/* HERO */}
 <section
   id="home"
-  className="flex flex-col md:flex-row items-center justify-center min-h-screen pt-28 md:pt-0 bg-gradient-to-r from-blue-600 to-purple-700 px-4 sm:px-8 md:px-16 py-12 gap-10"
+  className="flex flex-col md:flex-row items-center justify-center min-h-screen pt-32 md:pt-0 bg-gradient-to-r from-blue-600 to-purple-700 px-4 sm:px-8 md:px-16 py-12 gap-10"
 >
   
   {/* Left side - Text */}
   <div className="flex-1 text-center md:text-left">
     
     <h1 className="text-4xl sm:text-5xl md:text-6xl font-extrabold text-yellow-300 leading-tight">
-      Hi, I'm <br className="sm:hidden" />
+      Hi, I'm <br />
       Tanya Tripathi
     </h1>
 
